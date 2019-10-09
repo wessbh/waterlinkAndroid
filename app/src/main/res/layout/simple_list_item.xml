@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView
+        android:id="@+id/periode_str"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+
+        android:text="@string/periode"
+        android:textColor="@color/blue_900"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="15dp"
+        />
+    <TextView
+        android:id="@+id/periode_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/md_black_1000"
+        android:textSize="12sp"
+        app:layout_constraintLeft_toRightOf="@id/periode_str"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="20dp"
+        />
+
+    <TextView
+        android:id="@+id/status_str"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+
+        android:text="@string/status"
+        android:textColor="@color/blue_900"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/periode_str"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        />
+    <TextView
+        android:id="@+id/status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/non_pay"
+        android:textColor="@color/md_black_1000"
+        android:textSize="12sp"
+        app:layout_constraintLeft_toLeftOf="@id/periode_value"
+        app:layout_constraintTop_toTopOf="@+id/status_str"
+        />
+    <ImageView
+        android:id="@+id/img_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/periode_value"
+        app:layout_constraintLeft_toRightOf="@id/status"
+        android:layout_marginStart="15dp"
+        android:contentDescription="@string/status_img"
+        android:foregroundGravity="center"
+        />
+
+</android.support.constraint.ConstraintLayout>

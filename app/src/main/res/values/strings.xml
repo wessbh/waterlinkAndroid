@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">WaterLink</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="fcm_message">FCM Message</string>
+    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+    <string name="default_notification_channel_name" translatable="true">MyNotifications</string>
+    <string name="msg_token_fmt" translatable="false">InstanceID Token: %s</string>
+    <string name="consommation_en_eau">Consommation en eau :</string>
+    <string name="tranche_de_prix_actuelle">Tranche de prix actuelle :</string>
+    <string name="modifier_votre_seuil">Modifier votre seuil :</string>
+    <string name="_0_par_defaut">Seuil...</string>
+    <string name="refraichir">Refraichir</string>
+    <string name="zero">0</string>
+    <string name="welcome">Bienvenue</string>
+    <string name="_20">20</string>
+    <string name="non_pay">paid</string>
+    <string name="status_img">status_img</string>
+    <string name="status">Status: </string>
+    <string name="periode">Période: </string>
+    <string name="num_contrat">Numéro de contrat: </string>
+    <string name="region">Région</string>
+    <string name="invoice_details">Détail facture</string>
+    <string name="Real_time">Consommation en temps réel</string>
+    <string name="Barchart">Consommation Mensuel</string>
+</resources>

@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "270200852153",
+    "firebase_url": "https://waterlink-80393.firebaseio.com",
+    "project_id": "waterlink-80393",
+    "storage_bucket": "waterlink-80393.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:270200852153:android:231fd82e384bf923",
+        "android_client_info": {
+          "package_name": "com.fourwhys.waterlink"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "270200852153-es7lnl87q95dib8p9i61m70rf3u4bjb6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.fourwhys.waterlink",
+            "certificate_hash": "d85d328fd13ea1a44b6801d11e2f35a9953b07e4"
+          }
+        },
+        {
+          "client_id": "270200852153-cqtssisd3p1gruglj7pum97jvspu5dlj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.fourwhys.waterlink",
+            "certificate_hash": "8ce3b5e3516bb10bae9f2a158ea5eab6431c9094"
+          }
+        },
+        {
+          "client_id": "270200852153-q4g3eiun7keq3m3q20lh9kei45gmgh84.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyARa8l0ffy5Q69wiM68fbxd7KZ5rSLnOZQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "270200852153-q4g3eiun7keq3m3q20lh9kei45gmgh84.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
